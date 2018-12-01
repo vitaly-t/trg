@@ -2,7 +2,7 @@
 
 /**
  * @description
- * Parameter-based integer range generator.
+ * Parameter-based integer-range generator.
  *
  * @param {} a
  * Input parameters
@@ -38,6 +38,9 @@ function forInt(a) {
 }
 
 /**
+ * @description
+ * Parameter-based letter-range generator.
+ *
  * @param {} a
  * @returns {string}
  */
@@ -47,7 +50,7 @@ function forLetters(a) {
 
 /**
  * @description
- * ES6 Template - based integer range generator.
+ * ES6 Template - based integer-range generator.
  *
  * @param str
  * @param keys
@@ -65,7 +68,7 @@ function int(str, ...keys) {
 
 /**
  * @description
- * ES6 Template - based integer range generator.
+ * ES6 Template - based letter-range generator.
  *
  * @param str
  * @param keys
