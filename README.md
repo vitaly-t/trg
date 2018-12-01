@@ -1,7 +1,9 @@
-Template Range Generator
-------------------------
+Template Range Generators
+-------------------------
 
-Generic-template generator for a range of numbers or letters, using ES6 template strings.
+ES6 Template String - based generators for a range of numbers or letters.
+
+**NOTE:** Currently, supporting only numbers, and only for Node.js 6.0 and later.
 
 ## Install
 
@@ -12,26 +14,23 @@ $npm install trg
 ## Usage
 
 ```js
-const int = require('trg').int; // integer range formatter
+const _i = require('trg').int; // integer range generator
 ```
 
-Use `int` as ES6 Template string processor:
+Using local `_i` generator:
 
 ```js
-int`$pref${-3}, ${2}suf`;
-//=> $pref-3suf, $pref-2suf, $pref-1suf, $pref0suf, $pref1suf, $pref2suf
+_i`#${-3}, ${2}%`;
+//=> #-3%, #-2%, #-1%, #0%, #1%, #2%
 
-int`$${-5}, ${3}`;
-//=> $-5, $-4, $-3, $-2, $-1, $0, $1, $2, $3
+_i`$${1}, ${8}`;
+//=> $1, $2, $3, $4, $5, $6, $7, $8
 
-int`$${1}, ${12}`;
-//=> $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12
-
-int`${12}, ${1}`;
-//=> 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+_i`x${8}; ${1}`;
+//=> x8; x7; x6; x5; x4; x3; x2; x1
 ```
 
-Formatter `int` expects the following inside the string template:
+Integer generator expects the following inside the string template:
 
 1. Optional prefix
 2. Starting value

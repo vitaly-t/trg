@@ -1,7 +1,7 @@
 {
   "name": "trg",
-  "version": "0.0.1",
-  "description": "Template Range Generator",
+  "version": "0.0.2",
+  "description": "Template Range Generators",
   "main": "index.js",
   "homepage": "https://github.com/vitaly-t/trg",
   "repository": {
