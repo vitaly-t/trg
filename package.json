@@ -1,0 +1,32 @@
+{
+  "name": "trg",
+  "version": "0.0.1",
+  "description": "Template Range Generator",
+  "main": "index.js",
+  "homepage": "https://github.com/vitaly-t/trg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitaly-t/trg.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/vitaly-t/trg/issues",
+    "email": "vitaly.tomilov@gmail.com"
+  },
+  "keywords": [
+    "template",
+    "range",
+    "generator"
+  ],
+  "author": {
+    "name": "Vitaly Tomilov",
+    "email": "vitaly.tomilov@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0",
+    "npm": ">=2.15"
+  }
+}
