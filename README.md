@@ -20,28 +20,28 @@ $npm install trg
 const int = require('trg').int; // integer range generator
 ```
 
-Simple `{1, 7}` range:
+* Simple `{1, 7}` range:
 
 ```js
 int`${1}${7}`;
 //=> 1234567
 ```
 
-Range `{1, 7}`, with prefix `$` and `, ` separator:
+* Range `{1, 7}`, with prefix `$` and `, ` separator:
 
 ```js
 int`$${1}, ${7}`;
 //=> $1, $2, $3, $4, $5, $6, $7
 ```
 
-Reversed range `{7, 1}`, with step `2` and `, ` separator:
+* Reversed range `{7, 1}`, with step `2` and `, ` separator:
 
 ```js
 int`${7}, ${1}${2}`;
 //=> 7, 5, 3, 1
 ```
 
-Range `{-3, 7}`, with prefix `#`, suffix `:-)`, separator `, ` and step 2:
+* Range `{-3, 7}`, with prefix `#`, suffix `:-)`, separator `, ` and step `2`:
 
 ```js
 int`#${-3}, ${7}:-)${2}`;
