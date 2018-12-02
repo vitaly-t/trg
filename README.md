@@ -41,11 +41,11 @@ int`${7}, ${1}${2}`;
 //=> 7, 5, 3, 1
 ```
 
-Range `{-3, 7}`, with prefix `#`, suffix `:)`, separator `, ` and step 2:
+Range `{-3, 7}`, with prefix `#`, suffix `:-)`, separator `, ` and step 2:
 
 ```js
-int`#${-3}, ${7}^${2}`;
-//=> #-3:), #-1:), #1:), #3:), #5:), #7:)
+int`#${-3}, ${7}:-)${2}`;
+//=> #-3:-), #-1:-), #1:-), #3:-), #5:-), #7:-)
 ```
 
 Template format supported by the integer range generator:
