@@ -15,7 +15,7 @@
     "url": "https://github.com/vitaly-t/trg.git"
   },
   "files": [
-    "index.js"
+    "src/index.js"
   ],
   "bugs": {
     "url": "https://github.com/vitaly-t/trg/issues",
