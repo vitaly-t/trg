@@ -3,6 +3,9 @@ Template Range Generators
 
 ES6 Template String - based generators for a range of numbers or letters.
 
+[![Build Status](https://travis-ci.org/vitaly-t/trg.svg?branch=master)](https://travis-ci.org/vitaly-t/trg)
+[![Coverage Status](https://coveralls.io/repos/vitaly-t/trg/badge.svg?branch=master)](https://coveralls.io/r/vitaly-t/trg?branch=master)
+
 **NOTE:** Currently supporting only numbers, and only for Node.js 4.0 and later.
 
 ## Install
